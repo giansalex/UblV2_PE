@@ -1,5 +1,4 @@
-﻿
-using Ubl.V2.Pe.common;
+﻿using Ubl.V2.Pe.common;
 
 #pragma warning disable
 namespace Ubl.V2.Pe.maindoc
