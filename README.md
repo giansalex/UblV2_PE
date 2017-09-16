@@ -1,8 +1,11 @@
-# UBL v2 in .Net Core SUNAT 
+# UBL v2 - SUNAT (.Net Standard 2.0)
 Estandar UBL v2 que definie los documentos de la Facturacion Electronica SUNAT
 
 ## Nuget 
-Install: dotnet add package Ubl.V2.Pe  
+Install: 
+```bash
+dotnet add package Ubl.V2.Pe
+```  
 [Ubl.V2.Pe](https://www.nuget.org/packages/Ubl.V2.Pe)
 
 ## Documents
