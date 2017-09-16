@@ -1,13 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>Ubl.V2.Pe</AssemblyName>
+        <RootNamespace>Ubl.V2.Pe</RootNamespace>
+        <Company>IMM Corp</Company>
+        <Authors>Giancarlos Salas</Authors>
+        <Description>Standard UBL v2</Description>
+        <PackageTags>ubl, dotnet-core, sunat</PackageTags>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/giansalex/UblV2_PE</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/giansalex/UblV2_PE</PackageProjectUrl>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
-    <PackageReference Include="System.Xml.XmlDocument" Version="4.3.0" />
-    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
+        <PackageReference Include="System.Xml.XmlDocument" Version="4.3.0" />
+        <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+    </ItemGroup>
 
 </Project>
