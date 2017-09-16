@@ -11,6 +11,11 @@
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/giansalex/UblV2_PE</RepositoryUrl>
         <PackageProjectUrl>https://github.com/giansalex/UblV2_PE</PackageProjectUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <DocumentationFile>bin\Release\netstandard2.0\Ubl.V2.Pe.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
