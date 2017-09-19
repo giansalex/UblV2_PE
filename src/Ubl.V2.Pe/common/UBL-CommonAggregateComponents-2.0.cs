@@ -12052,6 +12052,7 @@ namespace Ubl.V2.Pe.common
 
         private LocationType1 transshipPortLocationField;
 
+        private PartyIdentificationType driverPerson;
         /// <summary>
         ///  Identifies a shipment stage.
         ///  Example: "1","2", etc..
@@ -12239,6 +12240,22 @@ namespace Ubl.V2.Pe.common
             set
             {
                 this.transshipPortLocationField = value;
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the driver person.
+        /// </summary>
+        /// <value>The driver person.</value>
+        public PartyIdentificationType DriverPerson
+        {
+            get
+            {
+                return driverPerson;
+            }
+            set
+            {
+                driverPerson = value;
             }
         }
     }
