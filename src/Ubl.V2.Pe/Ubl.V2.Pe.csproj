@@ -7,7 +7,7 @@
         <Company>IMM Corp</Company>
         <Authors>Giancarlos Salas</Authors>
         <Description>Standard UBL v2</Description>
-        <PackageTags>ubl, dotnet-core, sunat</PackageTags>
+        <PackageTags>ubl dotnet-core sunat</PackageTags>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/giansalex/UblV2_PE</RepositoryUrl>
         <PackageProjectUrl>https://github.com/giansalex/UblV2_PE</PackageProjectUrl>
